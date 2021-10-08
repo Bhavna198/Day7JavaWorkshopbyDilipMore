@@ -2,7 +2,7 @@ package com.bridgelabz;
 
 import java.util.Scanner;
 
-public class Main {
+public class TicTacToe {
 
     public static void main(String[] args) {
 
@@ -230,19 +230,19 @@ public class Main {
                 } else {
 
                     /** I had to fill Array with Numbers greater
-                    // 1 since the User choices will be 1 and 0
-                    // depending on the answer
-                    // And then I check the Array if it already
-                    // has
-                    // a 1 or 0 in it
-                    // numbers from 1-9 it would say that the
-                    // first
-                    // quadrant has been used
-                    // hope this somewhat explains my weird
-                    // thought
-                    // process in here - and sorry for bad
-                    // explanation probably should've just used a random high
-                    // number for user choices or constants */
+                     // 1 since the User choices will be 1 and 0
+                     // depending on the answer
+                     // And then I check the Array if it already
+                     // has
+                     // a 1 or 0 in it
+                     // numbers from 1-9 it would say that the
+                     // first
+                     // quadrant has been used
+                     // hope this somewhat explains my weird
+                     // thought
+                     // process in here - and sorry for bad
+                     // explanation probably should've just used a random high
+                     // number for user choices or constants */
                     System.out.print(" " + (Array1[k][j] - 1));
                 }
 
